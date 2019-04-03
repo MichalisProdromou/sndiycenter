@@ -1,0 +1,89 @@
+body{
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Header Parallax Element Style*/
+.paral {
+  height: 200px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+
+/* Heading for Parallax Section */
+.paral.paralsec{
+  color: rgba(255, 255, 255, 0.8);
+  padding: 0;
+}
+.paral.paralsec2{
+  color: rgba(0, 0, 0, 0.8);
+  padding: 0;
+}
+
+/* Image for Parallax Section */
+.paralsec {
+  background-image: url("../Assets/keyCutting.jpg");
+}
+.paralsec2 {
+  background-image: url("../Assets/color-eye.jpg");
+}
+
+.parallax-col {
+  padding: 0;
+}
+
+
+.card-img-top, .custom-card{
+  border-radius: 0;
+  border: none;
+}
+
+/* Remove Bottom Margin from Jumbotron */
+.jumbotron {
+  /* padding: 0; */
+  border-radius: 0;
+  margin-bottom: 0;
+}
+.service-img {
+  width: 250px;
+  height: auto;
+}
+
+footer {
+  background-color: #0e1015;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .service-img {
+    max-width: 250px;
+    height: auto;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .service-img-title{
+    font-size: 45px;
+  }
+  .service-img-subtitle{
+    font-size: 30px;
+  }
+  .service-img {
+    max-width: 250px;
+    height: auto;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .service-img {
+    max-width: 350px;
+    height: auto;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
